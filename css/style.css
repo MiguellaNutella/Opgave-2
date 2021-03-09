@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#grid-gallery{
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+img{
+  width: 100%;
+}
+#grid-info{
+  display: grid;
+  margin: 0 auto;
+  width: 90%;
+  grid-template-columns: 31% 31% 31%;
+  column-gap: 30px;
+}
+h1{
+  font: bold 34px 'Times New Roman', Times, serif ;
+  text-align: center;
+  padding: 20px;
+}
+#myPage{
+  background-color: rgb(196, 196, 196);
+  height: 150px;
+}
+h2 {
+  padding: 20px;
+  font: bold 24px 'Times New Roman', Times, serif;
+}
+#myPage p{
+  padding-left: 20px;
+  font: 14px 'Times New Roman', Times, serif;
+}
+h3{
+  font: bold 20px 'Times New Roman', Times, serif;
+}
+article{
+  background-color: rgb(196, 196, 196);
+  padding: 20px;
+  margin: 10px 0px;
+}
